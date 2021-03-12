@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Ask Me</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="offscreen">Search Me wikipedia powered search Engine</h1>
+        <section class="searchEntry">
+            <h2 class="offscreen">Search term Entry</h2>
+            <div class="logo" aria-hidden="true">Search Me</div>
+            <form action="" class="searchBar" id="searchBar">
+                <label for="" for="search" class="offscreen"> Enter a search term or phrase here </label>
+                <input type="text" class="search" autocomplete="off" />
+                <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="clear search terms"><i
+                        class="fas fa-times"></i>
+                </div>
+                <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button"><i
+                        class="fas fa-search"></i></button>
+            </form>
+        </section>
+
+        <section class="results">
+            <h2 class="offscreen">Search results</h2>
+            <div class="statsbar">
+                <div class="stats" id="stats" aria-live="assertive"></div>
+            </div>
+            <div class="searchResults" id="searchResults">
+                <div class="resultItem">
+                    <div class="resultTitle">
+                        <a href="">Dachsund</a>
+                    </div>
+                    <div class="resultContents">
+                        <div class="resultImage">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mao-the-dachsund-wikipedia.png/50px-Mao-the-dachsund-wikipedia.png"
+                                alt="Dachsund">
+                        </div>
+                        <div class="resultText">
+                            <p class="resultDescription">The dachsund (UK: DAKS-and, DASH-, -huun, -huunt, or US:
+                                DAHKS... </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> <span aria-hidden="true">&lt;&lt;</span>powered by <a href="https://www.wikipedia.org"
+                target="_blank">Wikipedia</a> <span aria-hidden="true">&gt;&gt;</span> </p>
+    </footer>
+</body>
+
+</html>
